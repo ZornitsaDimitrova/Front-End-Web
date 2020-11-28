@@ -1,0 +1,105 @@
+body {
+font-size: 16px;
+background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+}
+
+* {
+    font-family: Halvetica, sans-serif;
+
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 32rem;
+  width: 90%;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color:white;
+  padding: 2.5rem;
+}
+
+header {
+  display: inline-block;
+  color: rgb(0, 0, 0,0.8);
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: grey;
+}
+
+.form {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+input:focus {
+  transition: ease 0.5s;
+  border-bottom: 3.5px solid #B19AFE;
+}
+
+button {
+  max-width: 11rem;
+  height: 45px;
+  align-self: flex-end;
+  font-weight: 550;
+}
+
+#submit {
+  width: 10rem;
+  margin: 2rem 2rem 2rem 0;
+  background-color: #54bdd6;
+  outline: none;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+#create {
+  max-width: 10rem;
+  align-self: flex-end;
+  margin-right: 2rem;
+  font-weight: 550;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: rgb(57, 57, 255);
+  width: 10rem;
+}
+
+@media only screen and (max-width: 890px) {
+  .main {
+    width: 90%;
+    height: 550px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  #submit {
+    margin-top: 4rem;
+    margin-right: 2.7rem;
+    height: 45px;
+  }
+
+  #create {
+    margin-right: 1.2rem;
+  }
+}

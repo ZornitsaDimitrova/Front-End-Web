@@ -1,0 +1,99 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flutter</title>
+  <link rel="stylesheet" href="./styles3.css">
+</head>
+
+<body>
+<div id = "root">
+    <main>
+        <header class="search">
+            <h1>Flutter</h1>
+            <input type = "text" placeholder="Search" id="searchfield" />
+        </header>
+    <!-- Side Content (Profile) -->
+    <aside class="side-content">
+      <header class="profile">
+        <img src="./icons/Martin.png" alt="Martin" id="pic"/>
+        <label for="pic" id="under">Martin Hristov</label>
+      </header>
+
+      <section id="stats">
+        <ul style="list-style: none;">
+            <li >
+                <p class="stat" id="pos">Posts</p>
+                <label for="pos" class="count">1</label>
+            </li>
+            <li >
+                <p class="stat" id="react">Reactions</p>
+                <label for="react" class="count">10</label>
+            </li>
+        </ul>
+
+        <button id="logOut">Log out</button>
+      </section>
+    </aside>
+   
+    <div class="articles">
+      <header class="main-header">
+        <img src="./icons/Martin.png" alt="Martin" class="post-header-img" />
+        <input placeholder="Say something..." />
+        <img src="./icons/post-icon.png" alt="x" />
+       </header>
+
+       <article class = "post">
+          <header class="post-header">
+            <div class="post-person">
+              <img src="./icons/Martin.png" alt="Martin" class="img" />
+              <label for="img" id = "uname">Ivan Ivanov</label>
+            </div> 
+            <span class="post-since">0 seconds ago</span>
+            <img src="./icons/x-icon.png" alt="x" id = "x"/>
+          </header>
+  
+          <section class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sapiente autem a porro. Libero perspiciatis cupiditate quo accusamus assumenda, eveniet, rem alias illum, necessitatibus quidem saepe ipsum iure laborum? Et commodi, alias ipsum, iusto voluptates nesciunt sit odit voluptatem, ipsa debitis reiciendis. Eos numquam tempore quia libero rem magni voluptas harum ad, provident voluptatum facere, vitae accusamus adipisci fugiat alias quisquam eaque atque, aut omnis! Beatae voluptatum, saepe doloribus blanditiis rerum expedita veniam odio. Tempore saepe mollitia numquam 
+          </p>
+          <section class="post-actions">
+                <img src="./icons/like-icon.png" alt="like" id = "like" />
+                <label for="like"  class="count">5</label>
+                <img src="./icons/dislike-icon.png" alt="dislike" id = "dislike" />
+                <label for= "dislike"  class="count">3</label>
+          </section>
+          </section> 
+       </article>
+       <article class="post">
+        <header class="post-header">
+          <div class="post-person">
+            <img src="./icons/Martin.png" alt="Martin" class="img" />
+            <label for="img" id = "uname">Martin</label>
+          </div> 
+          <span class="post-since">Last month</span>
+          <img src="./icons/x-icon.png" alt="x" />
+        </header>
+
+        <section class="content">
+        <p >
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sapiente autem a po. 
+        </p>
+
+        <section class="post-actions">
+          <img src="./icons/like-icon.png" alt="like" id = "like" />
+          <label for="like" class="count"> 3 </label>
+          <img src="./icons/dislike-icon.png" alt="dislike" id = "dislike" />
+          <label for= "dislike"  class="count"> 0 </label>
+        </section>
+        </section>
+       </article>
+    </div>
+    </main>
+</div>
+</body>
+</html>
