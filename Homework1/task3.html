@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flutter</title>
+  <link rel="stylesheet" href="./style_3.css">
+</head>    
+    <body>
+        <div id="root">
+            <main>
+                <header class="searching">
+                    <h1>Flutter</h1>
+                    <input type="text" id="search" placeholder="Search">
+                </header>
+                <!--Side(Profile)-->
+                <aside class="profile">
+                    <header class="profilePic">
+                        <img src="icons/profile_img.png" alt="more" id="picture">
+                        <label for="picture" id="username">Zornitsa Dimitrova</label>
+                    </header>
+                    
+                    <section id="info">
+                        <ul style="list-style: none;">
+                            <li >
+                                <p class="inf" id="posted">Posts</p>
+                                <label for="posted" class="number">1</label>
+                            </li>
+
+                            <li >
+                                <p class="inf" id="reacted">Reactions</p>
+                                <label for="reacted" class="number">10</label>
+                            </li>
+                        </ul>
+                        <button id="logOut">Log out</button>
+                    </section>
+                </aside>
+
+                <article class="posted">
+                    <header class="addPost">
+                        <img src="icons/profile_img.png" alt="more" id="nextToAddPost">
+                        <input type="text" id="saySomething" placeholder="Say something">  
+                    </header>
+
+                    <ul>
+                        <li class="posts">
+                            <header class="whoPosted">
+                                <img src="icons/profile_img.png" id="personWhoPosted">
+                                <label for="personWhoPosted" id="name">Zornitsa Dimitrova</label>
+                                <label for="personWhoPosted" id="before">5 seconds ago</label>
+                                <img src="icons/x-icon.png" id="x">
+                            </header>
+                            <section class="publication">
+                                <p class="publicationContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                                <section id="publicationOptions">
+                                  <img src="icons/like-icon.png" id="like" class="reactions">
+                                  <label for="like" class="countReactions">5</label>
+                                  <img src="icons/dislike-icon.png" alt="" id="dislike" class="reactions">
+                                  <label for="dislike" class="countReactions">3</label>
+                                </section>
+                            </section>
+                        </li>
+
+                        <li class="posts">
+                            <header class="whoPosted">
+                                <img src="icons/profile_img.png" id="personWhoPosted">
+                                <label for="personWhoPosted" id="name">Zornitsa Dimitrova</label>
+                                <label for="personWhoPosted" id="before">5 seconds ago</label>
+                                <img src="icons/x-icon.png" id="x">
+                            </header>
+
+                            <section class="publication">
+                                <p class="publicationContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sapiente autem a po. </p>
+
+                                <section id="publicationOptions">
+                                  <img src="icons/like-icon.png" id="like" class="reactions">
+                                  <label for="like" class="countReactions">3</label>
+                                  <img src="icons/dislike-icon.png" alt="" id="dislike" class="reactions">
+                                  <label for="dislike" class="countReactions">0</label>
+                                </section>
+                            </section>
+                        </li>
+                    </ul>
+                </article>
+            </main>
+        </div>       
+    </body>
+</html>
